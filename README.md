@@ -1,6 +1,6 @@
 # Assignment 1
 
-## Total 20 marks
+## Total 15 marks
 
 # Human Activity Recognition (HAR)
 Human Activity Recognition (HAR) refers to the capability of machines to identify various activities performed by the users. The knowledge acquired from these systems/algorithms is integrated into many applications where the associated device uses it to identify actions or gestures and performs predefined tasks in response.
@@ -30,7 +30,7 @@ We will use the raw accelerometer data within the inertial_signals folder. The p
 4. Calculate the correlation matrix of the features obtained by TSFEL and provided in the dataset. Identify the features that are highly correlated with each other. Are there any redundant features? **[2 marks]**
 
 
-## Task 2 : Decision Trees for Human Activity Recognition [6 marks]
+## Task 2 : Decision Trees for Human Activity Recognition [5 marks]
 
 ### Questions
 
@@ -39,10 +39,10 @@ We will use the raw accelerometer data within the inertial_signals folder. The p
     * Train a decision tree model using the features obtained by TSFEL. Report the accuracy, precision, recall and confusion matrix of the model. 
     * Train a decision tree model using the features provided in the dataset. Report the accuracy, precision, recall and confusion matrix of the model. 
     * Compare the results of the three models. Which model do you think is better? 
-2. Train Decision Tree with varying depths (2-8) using all above 3 methods. Plot the accuracy of the model on test data vs the depth of the tree. **[2 marks]**
+2. Train Decision Tree with varying depths (2-8) using all above 3 methods. Plot the accuracy of the model on test data vs the depth of the tree. **[1 marks]**
 3. Are there any participants/ activitivies where the Model performace is bad? If Yes, Why? **[1 mark]**
 
-## Task 3 : Prompt Engineering for Large Language Models (LLMs) [8 marks]
+## Task 3 : Prompt Engineering for Large Language Models (LLMs) [4 marks]
 
 ### Zero-shot and Few Shot Prompting :
 Zero-shot prompting involves providing a language model with a prompt or a set of instructions that allows it to generate text or perform a task without any explicit training data or labeled examples. The model is expected to generate high-quality text or perform the task accurately based solely on the prompt and its internal knowledge.
@@ -58,11 +58,11 @@ Queries will be provided in the form of featurized accelerometer data and the mo
 
 ### Questions
 
-1. Demonstrate how to use Zero-Shot Learning and Few-Shot Learning to classify human activities based on the featurized accelerometer data. Qualitatively demonstrate the performance of Few-Shot Learning with Zero-Shot Learning. Which method performs better? Why?  **[2 marks]**
-2. Quantitatively compare the accuracy of Few-Shot Learning with Decision Trees (You may use a subset of the test set if you encounter rate-limiting issues). Which method performs better? Why? **[2 marks]**
-3. What are the limitations of Zero-Shot Learning and Few-Shot Learning in the context of classifying human activities based on featurized accelerometer data? **[2 marks]**
-4. What does the model classify when given input from an entirely new activity that it hasn't seen before? **[1 mark]**
-5. Test the model with random data (ensuring the data has the same dimensions and range as the previous input) and report the results. **[1 mark]**
+1. Demonstrate how to use Zero-Shot Learning and Few-Shot Learning to classify human activities based on the featurized accelerometer data. Qualitatively demonstrate the performance of Few-Shot Learning with Zero-Shot Learning. Which method performs better? Why?  **[1 marks]**
+2. Quantitatively compare the accuracy of Few-Shot Learning with Decision Trees (You may use a subset of the test set if you encounter rate-limiting issues). Which method performs better? Why? **[1 marks]**
+3. What are the limitations of Zero-Shot Learning and Few-Shot Learning in the context of classifying human activities based on featurized accelerometer data? **[1 marks]**
+4. What does the model classify when given input from an entirely new activity that it hasn't seen before? **[0.5 marks]**
+5. Test the model with random data (ensuring the data has the same dimensions and range as the previous input) and report the results. **[0.5 marks]**
 
 
 ## Fun Task : Data Collection in the Wild [Not Graded]
