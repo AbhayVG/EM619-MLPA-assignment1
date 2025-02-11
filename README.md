@@ -140,7 +140,7 @@ You must answer the subjectve questions (visualization,timing analysis, displayi
 ### **Genral Instructions :**
 1. Show your results in a Jupyter Notebook or an MD file. If you opt for using an MD file, you should also include the code.
 2. The Fun Task given is not a graded task it is for your learning and understanding.
-3. This assignment is of 20 marks. 
+3. This assignment is of 15 marks. 
 
 
 
